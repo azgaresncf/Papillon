@@ -27,7 +27,7 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Setup Java
         uses: actions/setup-java@v3
